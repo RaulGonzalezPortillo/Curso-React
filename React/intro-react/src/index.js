@@ -1,17 +1,7 @@
-const getASyncAwaitGif = async () => {
-    try {
-        const apiKey = 'gD1NvRYsuhPLecoSqzLMvlB0TRImVrVv';
-        const url = `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`;
-        const resp = await fetch(url);
-        const {data} = await resp.json();
-        const {url:urlGif} = data.images.original;
-        const img = document.createElement('img');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {CounterApp} from './CounterApp';
 
-        img.src=urlGif;
-        document.body.append(img);
-    } catch (error) {
-        console.warn(error);
-    }
-}
+const divApp = document.querySelector('#app');
 
-getASyncAwaitGif();
+ReactDOM.render(<CounterApp/>, divApp);

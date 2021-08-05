@@ -1,5 +1,5 @@
 {
-  "name": "intro-react",
+  "name": "gif-expert-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sweetalert2": "^11.1.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,10 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
-    "enzyme": "^3.11.0",
-    "enzyme-to-json": "^3.6.2"
   }
 }
