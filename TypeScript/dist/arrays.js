@@ -1,0 +1,10 @@
+"use strict";
+var myArray = [];
+myArray.push('Hola');
+myArray.push('Mundo');
+var myArray2 = [];
+myArray2.push(1);
+myArray2.push(2);
+myArray2.push(3);
+var myArray3 = myArray2.map(function (element) { return element * 2; });
+console.log(myArray3);
