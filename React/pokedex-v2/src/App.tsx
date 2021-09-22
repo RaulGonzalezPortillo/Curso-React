@@ -1,9 +1,10 @@
+import { PokemonCard } from "./components/PokemonCard";
 import { MainLayout } from "./layouts/mainLayout";
 
 function App() {
   return (
     <MainLayout>
-      Hola mundo
+      <PokemonCard/>
     </MainLayout>
   );
 }
